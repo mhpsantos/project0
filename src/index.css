@@ -1,9 +1,6 @@
-header .container{
+header .container {
     padding-top: 10px;
-    padding-bottom: 50px;
-
+    padding-bottom: 10px;
 }
 
-body .container{
-    background-color: black;
-}
+body .container {}
