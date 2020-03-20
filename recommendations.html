@@ -5,27 +5,37 @@
     <title>My recommendations</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="src/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/recommendations.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <header>
-    <div class="container">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="/index.html">home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/recommendations.html">recommendations</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">technologies</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">about me</a>
-            </li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/recommendations.html">Recommendations<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tech.html">Technologies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 
 <body>
@@ -33,27 +43,71 @@
         <blockquote class="blockquote text-center">
 
             <h3>Recommendations</h3>
-            <small class="text-muted">Series</small>
+            <h5 class="section-title">Series</h5>
         </blockquote>
 
         <div class="card-group">
             <div class="card">
-                <img src="https://www.svtstatic.se/image/wide/650/1063812/1362057316?quality=70&format=auto" class="card-img-top" alt="...">
+                <img src="src/img/bm.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Black Mirror</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title"> <a href="https://www.imdb.com/title/tt2085059/">Black Mirror</a></h5>
+                    <p class="card-text">An anthology series exploring a twisted, high-tech multiverse where humanity's
+                        greatest innovations and darkest instincts collide.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="https://1.bp.blogspot.com/-_JFroQbkxTU/WnTWv1hGpdI/AAAAAAAAKp4/qnfr-2gohxIVS4o1l2cxzmccGEzmvz3WACLcBGAs/s1600/altered-carbon-min.png " class="card-img-top" alt="...">
+                <img src="src/img/ldr.jpg" class="card-img-top" alt"...">
                 <div class="card-body">
-                    <h5 class="card-title">Altered Carbon</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
-                    </p>
+                    <h5 class="card-title"> <a href="https://www.imdb.com/title/tt9561862/">Love, Death & Robots</a>
+                    </h5>
+                    <p class="card-text">A collection of animated short stories that span various genres including
+                        science fiction, fantasy, horror and comedy. </p>
                 </div>
             </div>
 
         </div>
+        <blockquote class="blockquote text-center">
+            <h5 class="section-title">Movies</h5>
+        </blockquote>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="src/img/br.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> <a href="https://www.imdb.com/title/tt0083658/">Blade Runner (1982)</a></h5>
+                    <p class="card-text">A blade runner must pursue and terminate four replicants who stole a ship in
+                        space, and have returned to Earth to find their creator.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="src/img/p.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> <a href="https://www.imdb.com/title/tt6751668">Parasite (2019)</a></h5>
+                    <p class="card-text">A poor family, the Kims, con their way into becoming the servants of a rich
+                        family, the Parks. But their easy life gets complicated when their deception is threatened with
+                        exposure. </p>
+                </div>
+            </div>
+
+        </div>
+        <blockquote class="blockquote text-center">
+            <h5 class="section-title">Music</h5>
+        </blockquote>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="src/img/ti.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> <a href="https://official.tameimpala.com/">Tame Impala</a></h5>
+                    <p class="card-text">Tame Impala is a psychedelic music project of Australian multi-instrumentalist Kevin Parker.[4] In the recording studio, Parker writes, records, performs, and produces all of the project's music.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">made by <a href="https://github.com/mtsant">mtsant</a></span>
+    </div>
+</footer>

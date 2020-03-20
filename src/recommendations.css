@@ -1,0 +1,12 @@
+body .section-title{
+    padding-top: 50px;
+}
+
+footer {
+    bottom: 0px;
+    color: black;
+    padding-top: 50px;
+  }
+html,body{
+    height: 100%
+}
