@@ -1,0 +1,22 @@
+header .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body .introduction-text {
+  padding-top: 100px;
+}
+
+footer {
+  bottom: 0px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  color: black;
+}
+
+html, body {
+  height: 100%;
+}
+/*# sourceMappingURL=index.css.map */
